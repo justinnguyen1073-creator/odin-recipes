@@ -3,14 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Three recipes I actually cook and can vouch for, plus easy slow cooker birria tacos.">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/feta_salmon_pasta.html">Feta Salmon Pasta</a></li>
-        <li><a href="./recipes/macaron.html">Macaron</a></li>
-        <li><a href="./recipes/chicken_alfredo.html">Chicken Alfredo</a></li>
-    </ul>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">O</span>Odin Recipes</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="./index.html" aria-current="page">All recipes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <section class="intro" aria-labelledby="page-title">
+            <p class="eyebrow">A small recipe collection</p>
+            <h1 id="page-title">Odin Recipes</h1>
+            <p>These are the three recipes I actually know how to cook and can vouch for, plus an easy birria taco recipe.</p>
+        </section>
+
+        <ul class="recipe-grid">
+            <li>
+                <article class="recipe-card">
+                    <img src="./images/feta_salmon_pasta.jpg" alt="Baked salmon and feta tossed with pasta" width="2683" height="3354" loading="lazy" decoding="async">
+                    <div class="recipe-card-body">
+                        <h2><a href="./recipes/feta_salmon_pasta.html">Feta Salmon Pasta</a></h2>
+                        <p>A delicious pasta dish made with feta cheese and salmon. Perfect for a quick and tasty dinner.</p>
+                        <ul class="tags" aria-label="Details">
+                            <li>Oven</li>
+                            <li>375°F</li>
+                            <li>30 min bake</li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="recipe-card">
+                    <img src="./images/macaron.jpg" alt="Colorful macarons" width="5611" height="3741" loading="lazy" decoding="async">
+                    <div class="recipe-card-body">
+                        <h2><a href="./recipes/macaron.html">Macaron</a></h2>
+                        <p>Sweet and chewy macarons that are perfect for impressing any guests who come knocking at your door.</p>
+                        <ul class="tags" aria-label="Details">
+                            <li>Oven</li>
+                            <li>325°F</li>
+                            <li>Plan two days ahead</li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="recipe-card">
+                    <img src="./images/chicken_alfredo.jpg" alt="Creamy chicken alfredo pasta" width="10000" height="7500" loading="lazy" decoding="async">
+                    <div class="recipe-card-body">
+                        <h2><a href="./recipes/chicken_alfredo.html">Chicken Alfredo</a></h2>
+                        <p>A creamy and delicious chicken alfredo that is perfect for meal prep.</p>
+                        <ul class="tags" aria-label="Details">
+                            <li>Slow cooker</li>
+                            <li>10 servings</li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="recipe-card">
+                    <div class="card-art" aria-hidden="true"><span>Birria</span></div>
+                    <div class="recipe-card-body">
+                        <h2><a href="./recipes/birria_tacos.html">Birria Tacos</a></h2>
+                        <p>Slow cooker beef tacos, crisped with cheese and served with a rich consommé for dipping.</p>
+                        <ul class="tags" aria-label="Details">
+                            <li>Slow cooker</li>
+                            <li>8 servings</li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Built for the Recipes project in The Odin Project Foundations course.</p>
+        </div>
+    </footer>
 </body>
 </html>
