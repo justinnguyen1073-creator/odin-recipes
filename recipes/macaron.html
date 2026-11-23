@@ -3,48 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macaron Recipe</title>
+    <meta name="description" content="Sweet and chewy macarons with a vanilla buttercream filling.">
+    <title>Macaron Recipe | Odin Recipes</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1>Macaron</h1>
-    <a href="../index.html">Home</a>
-    <figure>
-        <img src="../images/macaron.jpg" alt="Macaron" width="561" height="374">
-    </figure>
-    <p>This is a sweet and chewy macaron recipe that is perfect to impress any guests that come knocking at your door!</p>
-    <h2>Ingredients</h2>
-    <h3>Macaron Shells</h3>
-    <ul>
-        <li>105 gram egg white, aged</li>
-        <li>144 gram almond flour</li>
-        <li>105 gram granulated sugar</li>
-        <li>125 gram powdered sugar</li>
-        <li>1 tsp food coloring</li>    
-    </ul>
-    <h3>Macaron Filling</h3>
-    <ul>
-        <li>113 gram unsalted butter, softened</li>
-        <li>140 gram powdered sugar</li>
-        <li>1/2 tsp vanilla extract</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Separate the egg whites into a bowl and let them age uncovered at room temperature for 24 hours.</li>
-        <li>Line two large baking sheets with parchment paper or specialized macaron mats.</li>
-        <li>Sift the almond flour and powdered sugar together into a dry-ingredient bowl to remove any lumps.</li>
-        <li>In a stand mixer, mix the egg whites until they foam and then add your granulated sugar.</li>
-        <li>Whip for at least 6 minutes to form stiff peaks of your meringue.</li>
-        <li>Add any desired food coloring to the meringue at this stage.</li>
-        <li>Remove from the mixer and sift in your almond flour mixture into the meringue.</li>
-        <li>Take a spatula and fold gently until the mixture comes off the spatula in ribbons</li>
-        <li>Transfer the batter into a piping bag fitted with a round tip and pipe small rounds onto the prepared baking sheets.</li>
-        <li>Tap the baking sheets on the counter to release any air bubbles and let them sit at room temperature for 30-60 minutes to form a skin.</li>
-        <li>Bake in a preheated oven at 325°F for 10-12 minutes, then let them cool completely on the baking sheets.</li>
-        <li>Prepare the filling by beating the softened butter, powdered sugar, and vanilla extract in the stand mixer until smooth and creamy.</li>
-        <li>Once the macaron shells are cooled, pipe the filling onto one shell and sandwich with another shell.</li>
-        <li>Repeat the process until all macaron shells are filled and sandwiched.</li>
-        <li>Store the macarons in the refrigerator for at least 24 hours to allow the flavors to meld together before serving.</li>
-        <li>Serve the macarons chilled and enjoy!</li>
-    </ol>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">O</span>Odin Recipes</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="../index.html">All recipes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <a class="back-link" href="../index.html"><span aria-hidden="true">&larr;</span> Back to all recipes</a>
+
+        <article>
+            <header class="recipe-hero">
+                <div>
+                    <p class="eyebrow">Dessert</p>
+                    <h1>Macaron</h1>
+                    <p class="lede">This is a sweet and chewy macaron recipe that is perfect for impressing any guests who come knocking at your door!</p>
+                    <ul class="tags" aria-label="Details">
+                        <li>Oven</li>
+                        <li>325°F</li>
+                        <li>Plan two days ahead</li>
+                    </ul>
+                    <p class="credit">Inspired by Nick DiGiovanni.</p>
+                </div>
+                <figure>
+                    <img src="../images/macaron.jpg" alt="Colorful macarons" width="5611" height="3741">
+                </figure>
+            </header>
+
+            <div class="recipe-body">
+                <section class="panel ingredients" aria-labelledby="ingredients-title">
+                    <h2 id="ingredients-title">Ingredients</h2>
+                    <p class="hint">Tick things off as you gather them.</p>
+
+                    <h3>Macaron shells</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"><span>105g egg whites, aged</span></label></li>
+                        <li><label><input type="checkbox"><span>144g almond flour</span></label></li>
+                        <li><label><input type="checkbox"><span>105g granulated sugar</span></label></li>
+                        <li><label><input type="checkbox"><span>125g powdered sugar</span></label></li>
+                        <li><label><input type="checkbox"><span>1 tsp food coloring</span></label></li>
+                    </ul>
+
+                    <h3>Macaron filling</h3>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox"><span>113g unsalted butter, softened</span></label></li>
+                        <li><label><input type="checkbox"><span>140g powdered sugar</span></label></li>
+                        <li><label><input type="checkbox"><span>1/2 tsp vanilla extract</span></label></li>
+                    </ul>
+                </section>
+
+                <section class="method" aria-labelledby="steps-title">
+                    <h2 id="steps-title">Steps</h2>
+                    <ol class="steps">
+                        <li>Separate the egg whites into a bowl and let them age uncovered at room temperature for 24 hours.</li>
+                        <li>Line two large baking sheets with parchment paper or macaron mats.</li>
+                        <li>Sift the almond flour and powdered sugar together into a bowl to remove any lumps.</li>
+                        <li>In a stand mixer, whisk the egg whites until they foam, then add your granulated sugar.</li>
+                        <li>Whip for at least 6 minutes until the meringue forms stiff peaks.</li>
+                        <li>Add any food coloring you like to the meringue at this stage.</li>
+                        <li>Remove the bowl from the mixer and sift your almond flour mixture into the meringue.</li>
+                        <li>Fold gently with a spatula until the batter falls off the spatula in ribbons.</li>
+                        <li>Transfer the batter into a piping bag fitted with a round tip and pipe small rounds onto the prepared baking sheets.</li>
+                        <li>Tap the baking sheets on the counter to release any air bubbles, then let them sit at room temperature for 30 to 60 minutes to form a skin.</li>
+                        <li>Bake in a preheated oven at 325°F for 10 to 12 minutes, then let them cool completely on the baking sheets.</li>
+                        <li>Make the filling by beating the softened butter, powdered sugar and vanilla extract in the stand mixer until smooth and creamy.</li>
+                        <li>Once the shells are cool, pipe the filling onto one shell and sandwich it with another.</li>
+                        <li>Repeat until all the shells are filled and sandwiched.</li>
+                        <li>Store the macarons in the refrigerator for at least 24 hours so the flavors meld together.</li>
+                        <li>Serve the macarons chilled and enjoy!</li>
+                    </ol>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Built for the Recipes project in The Odin Project Foundations course.</p>
+        </div>
+    </footer>
 </body>
 </html>
